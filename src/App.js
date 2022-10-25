@@ -6,7 +6,7 @@ function App() {
   const [activity,setActivity] = useState("")
 
   const getActivity = async()=> {
-    const response = await fetch(`https://www.boredapi.com/api/activity/`)
+    const response = await fetch("https://www.boredapi.com/api/activity/")
     const result = await response.json()
     setActivity(result.activity)
   }
