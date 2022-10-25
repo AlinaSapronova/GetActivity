@@ -1,0 +1,47 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  body{
+    font-family: 'DM Serif Text', serif;
+  }
+  h1{
+    text-align: center;
+    font-size: 45px;
+    color:#594545;
+    margin-top: 50px;
+    letter-spacing: 3px;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button{
+    font-family: 'DM Serif Text', serif;
+    background-color: #d7c0aec8;
+    font-size: 30px;
+    margin-top: 50px;
+    border: none;
+    box-shadow: 10px 10px 10px #594545;
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    color: #614124;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  h2{
+    background-color: #fdeedccc;
+    color: #594545;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    letter-spacing: 5px;
+  }
